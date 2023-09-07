@@ -43,6 +43,6 @@ def main():
 
 # Distance Function
 def dist(x1, y1, x2, y2):
-    distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+    math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 
 main()
